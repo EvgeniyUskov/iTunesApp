@@ -23,12 +23,6 @@ enum Constants {
         static let historyCellReuseId = "historyCell"
     }
     
-    enum NibNames{
-        static let albumCellNibName = "AlbumCell"
-        static let trackCellNibName = "TrackCell"
-        static let historyCellNibName = "HistoryCell"
-    }
-    
     enum Urls {
         static let tracksUrl = "https://itunes.apple.com/search?term="
         static let tracksUrlSuffix = "&limit=25"
