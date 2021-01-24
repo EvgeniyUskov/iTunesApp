@@ -10,8 +10,7 @@ after selecting an album, you need to display a screen with full information abo
 Tab with search history
 UITableView with history from UISearchBar input text. This history should be saved between application launch
 after selecting search string, you need to display a screen with search result
-Fora Soft LLC www.forasoft.com
-+7 (911) 191-48-63
+
   •
 • • •
 • •
