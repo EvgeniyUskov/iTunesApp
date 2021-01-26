@@ -8,7 +8,7 @@
 import Foundation
 
 //MARK: Protocols
-public protocol HistoryPresenterProtocol {
+public protocol HistoryPresenterProtocol: AnyObject {
     func presentData(fromItems items: [HistoryItem]?)
 }
 

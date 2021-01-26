@@ -8,7 +8,7 @@
 import UIKit
 
 //MARK: Protocols
-public protocol SearchPresenterProtocol {
+public protocol SearchPresenterProtocol: AnyObject {
     func presentData(albums: [Album]?)
 }
 

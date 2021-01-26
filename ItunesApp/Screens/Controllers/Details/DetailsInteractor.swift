@@ -8,13 +8,13 @@
 import Foundation
 
 //MARK: Protocols
-public protocol DetailsInteractorProtocol {
+public protocol DetailsInteractorProtocol: AnyObject {
     func loadDetails(forAlbum album: Album, completion: @escaping () -> ())
 }
 
 //MARK: DetailsInteractor
 public class DetailsInteractor {
-    var presenter: DetailsPresenterProtocol?
+    weak var presenter: DetailsPresenterProtocol?
     private var networkManager: NetworkManagerProtocol?
     
     //MARK: Init methods

@@ -9,14 +9,14 @@
 import UIKit
 
 //MARK: Protocols
-public protocol SearchInteractorProtocol {
+public protocol SearchInteractorProtocol: AnyObject {
     func loadAlbums(searchTerm: String)
     func addSearchTermToHistory(searchTerm: String)
 }
 
 public class SearchInteractor {
     //MARK: Properties
-    var presenter: SearchPresenterProtocol?
+    weak var presenter: SearchPresenterProtocol?
 
     private var networkManager: NetworkManagerProtocol?
     private var storageManager: HistoryStorageProtocol?

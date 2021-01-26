@@ -18,7 +18,7 @@ public protocol HistoryTransferDataProtocol {
 
 //MARK: HistoryInteractor
 public class HistoryInteractor {
-    var presenter: HistoryPresenterProtocol?
+    weak var presenter: HistoryPresenterProtocol?
     
     private let storageManager: HistoryStorageProtocol?
     private let transferDataDelegate: TransferDataDelegate?

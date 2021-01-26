@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol DetailsPresenterProtocol {
+public protocol DetailsPresenterProtocol: AnyObject {
     func presentDetailsViewModel(fromAlbum album: Album, tracks: [Track]?, completion: @escaping () -> ())
 }
 

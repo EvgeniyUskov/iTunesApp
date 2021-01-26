@@ -14,7 +14,7 @@ public protocol DetailsRouterProtocol {
 
 //MARK: DetailsRouter
 public class DetailsRouter: DetailsRouterProtocol {
-    var viewController: DetailsViewControllerProtocol?
+    weak var viewController: DetailsViewControllerProtocol?
     
     //MARK: Init methods
     public init(viewController: DetailsViewControllerProtocol?) {
