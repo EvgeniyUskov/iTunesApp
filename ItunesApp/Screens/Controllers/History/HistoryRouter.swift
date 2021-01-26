@@ -15,7 +15,7 @@ public protocol HistoryRouterProtocol: AnyObject {
 //MARK: HistoryRouter
 public class HistoryRouter {
     weak var viewController: HistoryViewControllerProtocol?
-    var interactor: HistoryTransferDataProtocol?
+    weak var interactor: HistoryTransferDataProtocol?
     
     //MARK: Init methods
     public init(viewController: HistoryViewControllerProtocol, interactor: HistoryTransferDataProtocol) {

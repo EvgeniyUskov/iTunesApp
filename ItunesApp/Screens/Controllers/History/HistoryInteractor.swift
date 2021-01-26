@@ -12,7 +12,7 @@ public protocol HistoryInteractorProtocol: AnyObject {
     func loadHistory()
 }
 
-public protocol HistoryTransferDataProtocol {
+public protocol HistoryTransferDataProtocol: AnyObject {
     func transferData(searchTerm: String)
 }
 
