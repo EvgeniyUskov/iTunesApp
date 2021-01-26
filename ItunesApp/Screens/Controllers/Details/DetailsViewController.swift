@@ -16,9 +16,9 @@ public protocol DetailsViewControllerProtocol: AnyObject {
 public class DetailsViewController: UITableViewController {
     private var viewModel: DetailsViewModel?
     
-    public var router: DetailsRouterProtocol?
-    public var interactor: DetailsInteractorProtocol?
-    public var presenter: DetailsPresenterProtocol?
+    public weak var router: DetailsRouterProtocol?
+    public weak var interactor: DetailsInteractorProtocol?
+    public weak var presenter: DetailsPresenterProtocol?
     
     public override func viewDidLoad() {
         super.viewDidLoad()

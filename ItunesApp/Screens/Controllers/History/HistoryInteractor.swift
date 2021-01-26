@@ -8,7 +8,7 @@
 import Foundation
 
 //Protocols
-public protocol HistoryInteractorProtocol {
+public protocol HistoryInteractorProtocol: AnyObject {
     func loadHistory()
 }
 

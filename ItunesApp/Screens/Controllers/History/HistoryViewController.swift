@@ -20,9 +20,9 @@ public class HistoryViewController: UITableViewController {
     public var mainTabBarDelegate: MainTabBarControllerDelegate?
     public var transferDataDelegate: TransferDataDelegate?
     
-    var presenter: HistoryPresenterProtocol?
-    var interactor: HistoryInteractorProtocol?
-    var router: HistoryRouterProtocol?
+    public weak var presenter: HistoryPresenterProtocol?
+    public weak var interactor: HistoryInteractorProtocol?
+    public weak var router: HistoryRouterProtocol?
     
     public override func viewDidLoad() {
         super.viewDidLoad()

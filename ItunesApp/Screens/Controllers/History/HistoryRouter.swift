@@ -8,7 +8,7 @@
 import Foundation
 
 //MARK: Protocols
-public protocol HistoryRouterProtocol {
+public protocol HistoryRouterProtocol: AnyObject {
     func routeToSearch(withText searchTerm: String)
 }
 

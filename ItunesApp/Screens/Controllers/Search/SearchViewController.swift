@@ -29,9 +29,9 @@ public class SearchViewController: UICollectionViewController {
     private var timer : Timer?
     var viewModel = SearchViewModel(cells: [])
     
-    public var router: SearchRouterProtocol?
-    public var interactor: SearchInteractorProtocol?
-    public var presenter: SearchPresenterProtocol?
+    public weak var router: SearchRouterProtocol?
+    public weak var interactor: SearchInteractorProtocol?
+    public weak var presenter: SearchPresenterProtocol?
     
     //MARK: Init methods
     public init(layout: UICollectionViewLayout, viewModel: SearchViewModel) {

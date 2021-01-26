@@ -7,7 +7,7 @@
 import Foundation
 import UIKit
 
-public protocol SearchRouterProtocol {
+public protocol SearchRouterProtocol: AnyObject {
     func routeToDetails(album: Album)
 }
 

@@ -8,7 +8,7 @@
 import Foundation
 
 //MARK: Protocols
-public protocol DetailsRouterProtocol {
+public protocol DetailsRouterProtocol: AnyObject {
     
 }
 
