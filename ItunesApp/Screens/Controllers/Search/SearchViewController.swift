@@ -53,6 +53,11 @@ public class SearchViewController: UICollectionViewController {
 //MARK: UICollectionViewDelegate, UICollectionViewDataSource Implementation methods
 extension SearchViewController {
     public override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        if viewModel.cells.count == 0 {
+            self.collectionView.setEmptyView(title: Constants.Stuff.noAlbumsTitleMessage, message: Constants.Stuff.noAlbumsSubtitleMessage)
+        } else {
+            self.collectionView.restore()
+        }
         return viewModel.cells.count
     }
     

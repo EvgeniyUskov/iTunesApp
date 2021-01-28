@@ -69,6 +69,8 @@
 		44C48AE525B88D4C00DF3108 /* URLSessionNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C48AE425B88D4C00DF3108 /* URLSessionNetworkManager.swift */; };
 		44C48AF625B9516D00DF3108 /* Assests.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C48AF525B9516D00DF3108 /* Assests.xcassets */; };
 		44C48AFD25B9703D00DF3108 /* UISearchBar + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C48AFC25B9703D00DF3108 /* UISearchBar + Extension.swift */; };
+		44D41BD525C2B68900EB6487 /* UITableView + Extenion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D41BD425C2B68900EB6487 /* UITableView + Extenion.swift */; };
+		44D41BDE25C2B84200EB6487 /* UICollectionView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D41BDD25C2B84200EB6487 /* UICollectionView + Extension.swift */; };
 		44E3DF6525B457E300C1E905 /* HistoryViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3DF6425B457E300C1E905 /* HistoryViewControllerBuilder.swift */; };
 		44E3DF6925B45A8200C1E905 /* HistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3DF6825B45A8200C1E905 /* HistoryPresenter.swift */; };
 		44E3DF6C25B45AAF00C1E905 /* HistoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3DF6B25B45AAF00C1E905 /* HistoryInteractor.swift */; };
@@ -158,6 +160,8 @@
 		44C48AE425B88D4C00DF3108 /* URLSessionNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionNetworkManager.swift; sourceTree = "<group>"; };
 		44C48AF525B9516D00DF3108 /* Assests.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assests.xcassets; sourceTree = "<group>"; };
 		44C48AFC25B9703D00DF3108 /* UISearchBar + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar + Extension.swift"; sourceTree = "<group>"; };
+		44D41BD425C2B68900EB6487 /* UITableView + Extenion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + Extenion.swift"; sourceTree = "<group>"; };
+		44D41BDD25C2B84200EB6487 /* UICollectionView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView + Extension.swift"; sourceTree = "<group>"; };
 		44E3DF6425B457E300C1E905 /* HistoryViewControllerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewControllerBuilder.swift; sourceTree = "<group>"; };
 		44E3DF6825B45A8200C1E905 /* HistoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPresenter.swift; sourceTree = "<group>"; };
 		44E3DF6B25B45AAF00C1E905 /* HistoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryInteractor.swift; sourceTree = "<group>"; };
@@ -316,6 +320,8 @@
 				449EA3F825B3FD7F007E3EA6 /* UIView + Extension.swift */,
 				44C48AFC25B9703D00DF3108 /* UISearchBar + Extension.swift */,
 				4445833325B0184C004AB6EE /* UIColor + Extension.swift */,
+				44D41BD425C2B68900EB6487 /* UITableView + Extenion.swift */,
+				44D41BDD25C2B84200EB6487 /* UICollectionView + Extension.swift */,
 				441DBF1C25B537BC008C27D4 /* DateUtils.swift */,
 				44A7051525BA96ED00699B40 /* UILabel + Extension.swift */,
 				44A7051925BA9A3200699B40 /* UIStackView + Extension.swift */,
@@ -682,6 +688,7 @@
 				44E3DF7B25B45BF000C1E905 /* DetailsInteractor.swift in Sources */,
 				44A371C925B0A48D00CE0C64 /* String + Extension.swift in Sources */,
 				44A3720425B1A5AE00CE0C64 /* Header.swift in Sources */,
+				44D41BD525C2B68900EB6487 /* UITableView + Extenion.swift in Sources */,
 				44C48AE525B88D4C00DF3108 /* URLSessionNetworkManager.swift in Sources */,
 				4446A3BD25B2119C00063966 /* SearchModels.swift in Sources */,
 				44C032A525B7FDB4008FCB02 /* Track.swift in Sources */,
@@ -689,6 +696,7 @@
 				44E3DF7525B45B5B00C1E905 /* DetailsViewController.swift in Sources */,
 				4445832D25B00C56004AB6EE /* HistoryViewController.swift in Sources */,
 				4445831025B00983004AB6EE /* AppDelegate.swift in Sources */,
+				44D41BDE25C2B84200EB6487 /* UICollectionView + Extension.swift in Sources */,
 				4446A3B625B210A100063966 /* SearchInteractor.swift in Sources */,
 				4446A3AC25B20C9700063966 /* SearchViewControllerBuilder.swift in Sources */,
 				44A371E425B155D300CE0C64 /* JSONManager.swift in Sources */,

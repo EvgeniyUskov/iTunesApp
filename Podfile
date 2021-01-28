@@ -7,4 +7,5 @@ target 'ItunesApp' do
 
   # Pods for ItunesApp
 	pod 'Kingfisher'
+  pod 'TinyConstraints'
 end

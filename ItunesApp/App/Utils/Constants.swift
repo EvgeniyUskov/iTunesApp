@@ -35,5 +35,13 @@ enum Constants {
         static let headerText = "Albums"
         static let tracksHeaderText = "Tracks:"
         static let dragDownImage = UIImage(named: "Drag Down")
+        
+        static let noHistoryTitleMessage = "История пуста"
+        static let noHistorySubtitleMessage = "Ваша лента пуста"
+        
+        static let noAlbumsTitleMessage = "Нет альбомов"
+        static let noAlbumsSubtitleMessage = "Добавьте источники для получения новостей"
+        
+        static let rightBarButtonItemText = "Назад"
     }
 }

@@ -32,12 +32,12 @@ public class HistoryViewController: UITableViewController {
     public override func viewWillAppear(_ animated: Bool) {
         interactor?.loadHistory()
     }
-
+    
     private func setupUI() {
         view.backgroundColor = Constants.Colors.backgroundColor
         tableView.backgroundColor = Constants.Colors.backgroundColor
         tableView.register(HistoryCell.self, forCellReuseIdentifier: Constants.Ids.historyCellReuseId)
-//        tableView.separatorStyle = .none
+        //        tableView.separatorStyle = .none
         tableView.showsVerticalScrollIndicator = false
     }
 }
@@ -45,6 +45,11 @@ public class HistoryViewController: UITableViewController {
 //MARK:- TableViewDelegate methods
 extension HistoryViewController {
     public override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if viewModel.cells.count == 0 {
+            self.tableView.setEmptyView(title: Constants.Stuff.noHistoryTitleMessage, message: Constants.Stuff.noHistorySubtitleMessage)
+        } else {
+            self.tableView.restore()
+        }
         return viewModel.cells.count
     }
     
