@@ -18,6 +18,7 @@ extension UITableView {
         titleLabel.textColor = Constants.Colors.textColor
         titleLabel.font = UIFont.systemFont(ofSize: 15, weight: .light)
         titleLabel.text = title
+        titleLabel.textAlignment = .center
         
         let messageLabel = UILabel()
         messageLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -33,7 +34,7 @@ extension UITableView {
         
         emptyView.addSubview(stackView)
 
-        stackView.top(to: emptyView, offset: 100)
+        stackView.top(to: emptyView, offset: 200)
         stackView.centerX(to: emptyView)
         self.backgroundView = emptyView
         self.separatorStyle = .none

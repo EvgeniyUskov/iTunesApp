@@ -19,6 +19,7 @@ extension UICollectionView {
         titleLabel.textColor = Constants.Colors.textColor
         titleLabel.font = UIFont.systemFont(ofSize: 15, weight: .light)
         titleLabel.text = title
+        titleLabel.textAlignment = .center
         
         let messageLabel = UILabel()
         messageLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -33,9 +34,9 @@ extension UICollectionView {
         stackView.spacing = 5
         
         emptyView.addSubview(stackView)
-
-        stackView.top(to: emptyView, offset: 100)
+//        stackView.top(to: emptyView, offset: 100)
         stackView.centerX(to: emptyView)
+        stackView.centerY(to: emptyView)
         self.backgroundView = emptyView
     }
     func restore() {
